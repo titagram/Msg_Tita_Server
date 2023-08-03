@@ -6,7 +6,7 @@ import common.Buffer;
 
 public class Server {
 
-    private static int PORT = 100;
+    private static int PORT = 1024;
     private static final int CONNESSIONI_MAX = 100;
     private static int conta_connessioni = 0;
     private static final Buffer messageBuffer = new Buffer();
